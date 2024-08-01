@@ -382,7 +382,7 @@ if __name__ == "__main__":
     root = tk.TK()
     root.withdraw()  # hide root window
     file_path_start = 'C/Users/vroyzen/OneDrive - Product Insight/Documents'
-    file_path = filedialog.askopenfilename(filetypes=[("PNG Files", ".png")], initialfile=file_path_start)
+    file_path = filedialog.askopenfilename(filetypes=[("PNG Files", "*.png")], initialfile=file_path_start)
 
     # checking to confirm that user selected a file or canceled operation
     if not file_path_start:
